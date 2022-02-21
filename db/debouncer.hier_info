@@ -1,0 +1,35 @@
+|debouncer_main
+CLOCK_50 => CLOCK_50.IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+LEDR[0] << debouncer:u0.PB_state
+LEDR[1] << debouncer:u0.PB_down
+LEDR[2] << debouncer:u0.PB_up
+
+
+|debouncer_main|debouncer:u0
+clk => PB_state~reg0.CLK
+clk => PB_cnt[0].CLK
+clk => PB_cnt[1].CLK
+clk => PB_cnt[2].CLK
+clk => PB_cnt[3].CLK
+clk => PB_cnt[4].CLK
+clk => PB_cnt[5].CLK
+clk => PB_cnt[6].CLK
+clk => PB_cnt[7].CLK
+clk => PB_cnt[8].CLK
+clk => PB_cnt[9].CLK
+clk => PB_cnt[10].CLK
+clk => PB_cnt[11].CLK
+clk => PB_cnt[12].CLK
+clk => PB_cnt[13].CLK
+clk => PB_cnt[14].CLK
+clk => PB_cnt[15].CLK
+clk => PB_sync_1.CLK
+clk => PB_sync_0.CLK
+PB => PB_sync_0.DATAIN
+PB_state <= PB_state~reg0.DB_MAX_OUTPUT_PORT_TYPE
+PB_down <= PB_down.DB_MAX_OUTPUT_PORT_TYPE
+PB_up <= PB_up.DB_MAX_OUTPUT_PORT_TYPE
+
+

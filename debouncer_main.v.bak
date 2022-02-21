@@ -1,0 +1,68 @@
+// ============================================================================
+//           
+//  
+//  
+//                     web: https://protobrody.blogspot.com/
+//                     email: fernando.madera@cinvestav.mx
+//
+// ============================================================================
+//								Date:  Sunday 20/02/2022
+// ============================================================================
+
+
+`define ENABLE_CLOCK
+
+`define ENABLE_HEX
+
+`define ENABLE_KEY
+
+`define ENABLE_SW
+
+
+module DE1_SOC_golden_top(
+
+      /* Enables CLOCK */
+	`ifdef ENABLE_CLOCK
+      input              CLOCK_50,
+	`endif
+
+      /* Enables HEX - 3.3V */
+	`ifdef ENABLE_HEX
+      output      [6:0]  HEX0,
+      output      [6:0]  HEX1,
+      output      [6:0]  HEX2,
+      output      [6:0]  HEX3,
+      output      [6:0]  HEX4,
+      output      [6:0]  HEX5,
+	`endif
+	
+      /* Enables KEY - 3.3V */
+	`ifdef ENABLE_KEY
+      input       [3:0]  KEY,
+	`endif
+
+      /* Enables SW - 3.3V */
+	`ifdef ENABLE_SW
+      input       [9:0]  SW,
+	`endif
+
+);
+
+
+//=======================================================
+//  REG/WIRE declarations
+//=======================================================
+
+
+
+
+
+//=======================================================
+//  Structural coding
+//=======================================================
+
+
+
+
+
+endmodule

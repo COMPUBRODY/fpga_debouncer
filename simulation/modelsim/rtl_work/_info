@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Madera/Documents/Quartus_Workspace/debouncer/simulation/modelsim
+vdebouncer
+Z1 !s110 1645406630
+!i10b 1
+!s100 7fc8?WDJJodNLFcgV]AKI0
+IKM;2FY1;21nK9T9fC>]1l3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1645405136
+8C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer.v
+FC:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1645406630.000000
+!s107 C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Madera/Documents/Quartus_Workspace/debouncer|C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Madera/Documents/Quartus_Workspace/debouncer
+Z7 tCvgOpt 0
+vdebouncer_main
+R1
+!i10b 1
+!s100 bXlWEo<WO59@0C1@zTX0D1
+I]eY3gIOi@R=Zhdk3L=L4K1
+R2
+R0
+w1645405212
+8C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer_main.v
+FC:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer_main.v
+L0 17
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer_main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Madera/Documents/Quartus_Workspace/debouncer|C:/Users/Madera/Documents/Quartus_Workspace/debouncer/debouncer_main.v|
+!i113 1
+R5
+R6
+R7
+vtb_debouncer
+R1
+!i10b 1
+!s100 PC7cmR:g1L6J1^@Z@FFfH2
+I:1XaoD@]zl=5PBQW85ffT2
+R2
+R0
+w1645406603
+8C:/Users/Madera/Documents/Quartus_Workspace/debouncer/tb_debouncer.v
+FC:/Users/Madera/Documents/Quartus_Workspace/debouncer/tb_debouncer.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Madera/Documents/Quartus_Workspace/debouncer/tb_debouncer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Madera/Documents/Quartus_Workspace/debouncer|C:/Users/Madera/Documents/Quartus_Workspace/debouncer/tb_debouncer.v|
+!i113 1
+R5
+R6
+R7
